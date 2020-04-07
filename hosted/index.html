@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="UTF-8"> 
+<html lang="en">
+<head>
+	<title>rollTopic</title>
+	<meta name="description" content="Random Topics">
+	<meta name="author" content="Cassidy Coffey">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="clientStyle.css">
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+    <script src="clientScript.js"></script>
+</head>
+<body>
+	<div id="header">
+		<h1>Cesspool</h1>
+		<h2>Help I'm Bored</h2>
+	</div>
+	
+	<button class="push_button" id="request" type="button">Get Topic</button>
+	<p id="intro">Today's topic is:</p>
+	<div id="result">
+		<div class="recessed" id="nameDiv">
+			<p id="response">Loading...</p>
+		</div>
+	</div>
+</body>
+</html>
